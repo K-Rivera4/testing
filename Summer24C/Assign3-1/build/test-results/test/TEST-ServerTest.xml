@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ServerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-06-06T16:49:55" hostname="DESKTOP-JQ19IVG" time="0.041">
+  <properties/>
+  <testcase name="addManyRequest" classname="ServerTest" time="0.025"/>
+  <testcase name="addRequest" classname="ServerTest" time="0.006"/>
+  <testcase name="addRatingRequest" classname="ServerTest" time="0.002"/>
+  <testcase name="echoRequest" classname="ServerTest" time="0.002"/>
+  <testcase name="viewRatingRequest" classname="ServerTest" time="0.001"/>
+  <testcase name="addMovieRequest" classname="ServerTest" time="0.001"/>
+  <testcase name="notJSON" classname="ServerTest" time="0.003"/>
+  <system-out><![CDATA[{"ok":false,"message":"Values in array need to be ints"}
+{"ok":false,"message":"Only one value given"}
+{"ok":false,"message":"Field num2 does not exist in request"}
+{"ok":false,"message":"Field num1 does not exist in request"}
+{"ok":false,"message":"Field num1 does not exist in request"}
+{"ok":false,"type":"add","message":"Field num1/num2 needs to be of type: int"}
+Response from server for addRatingRequest: {"movies":[{"movie":"Gangsta","raters":["wona","kariver4"],"rating":4}],"type":"rating","ok":true}
+{"ok":false,"message":"Field data does not exist in request"}
+Response from server for viewRatingRequest: {"movies":[{"movie":"Attack on Titan","raters":["kariver4"],"rating":5}],"type":"rating","ok":true}
+Response from server: {"movies":[{"movie":"Michiko y Hatchin","raters":["kariver4"],"rating":5}],"type":"rating","ok":true}
+{"ok":false,"message":"Field num2 does not exist in request"}
+{"ok":false,"message":"Field num1 does not exist in request"}
+{"ok":false,"message":"Field num1 does not exist in request"}
+{"ok":false,"type":"add","message":"Field num1/num2 needs to be of type: int"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

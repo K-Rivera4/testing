@@ -1,0 +1,22 @@
+:{"ok":false,"message":"Values in array need to be ints"}
+/{"ok":false,"message":"Only one value given"}
+?{"ok":false,"message":"Field num2 does not exist in request"}
+?{"ok":false,"message":"Field num1 does not exist in request"}
+?{"ok":false,"message":"Field num1 does not exist in request"}
+P{"ok":false,"type":"add","message":"Field num1/num2 needs to be of type: int"}
+èResponse from server for addRatingRequest: {"movies":[{"movie":"Gangsta","raters":["wona","kariver4"],"rating":4}],"type":"rating","ok":true}
+?{"ok":false,"message":"Field data does not exist in request"}
+ëResponse from server for viewRatingRequest: {"movies":[{"movie":"Attack on Titan","raters":["kariver4"],"rating":5}],"type":"rating","ok":true}
+}Response from server: {"movies":[{"movie":"Michiko y Hatchin","raters":["kariver4"],"rating":5}],"type":"rating","ok":true}
+?{"ok":false,"message":"Field num2 does not exist in request"}
+?{"ok":false,"message":"Field num1 does not exist in request"}
+?{"ok":false,"message":"Field num1 does not exist in request"}
+P{"ok":false,"type":"add","message":"Field num1/num2 needs to be of type: int"}
+
+0Echo request: {"data":"whooooo","type":"echo"}
+
+1Echo request: {"data1":"whooooo","type":"echo"}
+
+)Echo request: {"data":33,"type":"echo"}
+
++Echo request: {"data":true,"type":"echo"}
